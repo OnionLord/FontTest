@@ -9,21 +9,30 @@
 #import "fontViewController.h"
 
 @interface fontViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *myLabel;
+- (IBAction)Pressed:(UIButton *)sender;
 
 @end
 
 @implementation fontViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
+- (IBAction)Pressed:(UIButton *)sender {
+
+    float fontsize = self.myLabel.font.pointSize;
+    
+    NSRange r = {0,1};
+    NSMutableAttributedString *labelText = [self.myLabel.attributedText mutableCopy];
+    
+    UIFont *bodyfont = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    
+    UIFontDescriptor *eDescriptor = [bodyfont fontDescriptor];
+    
+    
+    
+    [labelText setAttributes : @{NSFontAttributeName:[UIFont fontWithDescriptor:eDescriptor size:fontsize+10]} range:r];
+    self.myLabel.attributedText = labelText;
+    
+}
 @end
