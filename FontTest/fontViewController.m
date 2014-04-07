@@ -32,7 +32,28 @@
     
     
     [labelText setAttributes : @{NSFontAttributeName:[UIFont fontWithDescriptor:eDescriptor size:fontsize+10]} range:r];
+
     self.myLabel.attributedText = labelText;
+    switch((int)(fontsize/10)%4)
+    {
+        case 1:
+            self.myLabel.textColor =[UIColor brownColor];
+            //self.myLabel.font = [UIFont boldSystemFontOfSize:16.0f];
+            break;
+        case 2:
+            self.myLabel.textColor =[UIColor redColor];
+            //self.myLabel.font = [UIFont italicSystemFontOfSize:16.0f];
+            break;
+        case 3:
+            self.myLabel.textColor =[UIColor blueColor];
+            break;
+        case 4:
+            self.myLabel.textColor =[UIColor blackColor];
+            break;
+        default:
+            self.myLabel.textColor =[UIColor blackColor];
+    }
+    
     
 }
 @end

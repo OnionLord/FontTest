@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3CDF8179-AC67-4D66-875E-5BF71DED78FB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FontTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>66622EEF-802E-4EC2-AF58-4238936A76EE</key>
+		<string>https://github.com/OnionLord/FontTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FontTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>66622EEF-802E-4EC2-AF58-4238936A76EE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/OnionLord/FontTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66622EEF-802E-4EC2-AF58-4238936A76EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66622EEF-802E-4EC2-AF58-4238936A76EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FontTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
